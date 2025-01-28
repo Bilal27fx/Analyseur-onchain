@@ -1,0 +1,35 @@
+1. app/
+   Cœur de l'application contenant les modèles, routes, services, et outils.
+   
+   1.1 models/ 
+       Décrit les structures de données utilisées dans la base (exemple : utilisateurs, transactions).
+   
+   1.2 routes/ 
+       Définit les points d'entrée de l'API (endpoints) pour les différentes fonctionnalités.
+   
+   1.3 services/ 
+       Contient la logique métier comme le scoring, l'analyse ou la création de graphes.
+   
+   1.4 utils/ 
+       Fournit des fonctions utilitaires comme la validation ou des outils génériques.
+
+2. templates/
+   Contient les fichiers HTML si tu utilises Flask pour servir des pages web.
+
+3. static/
+   Pour les fichiers frontend (CSS, JavaScript, images).
+
+4. tests/
+   Fichiers de tests pour vérifier que l'application fonctionne correctement.
+
+5. migrations/
+   Fichiers générés pour gérer l'évolution de la base de données avec des outils comme Flask-Migrate.
+
+6. config.py
+   Configuration principale (paramètres de base de données, clés API, options générales).
+
+7. requirements.txt
+   Liste des librairies nécessaires à l'application (souvent installées via `pip install -r requirements.txt`).
+
+8. run.py
+   Fichier principal utilisé pour démarrer l'application Flask.
